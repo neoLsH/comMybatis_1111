@@ -6,17 +6,28 @@ public class User {
     private Integer id;
     private String name;
     private String ago;
-    private String add;
+    private String address;
     private String birthday;
 
     public User(){
     }
 
-    public User(Integer id, String name, String ago, String add, String birthday) {
+    public User(Integer id) {
+        this.id = id;
+    }
+
+    public User(String name, String ago, String address, String birthday) {
+        this.name = name;
+        this.ago = ago;
+        this.address = address;
+        this.birthday = birthday;
+    }
+
+    public User(Integer id, String name, String ago, String address, String birthday) {
         this.id = id;
         this.name = name;
         this.ago = ago;
-        this.add = add;
+        this.address = address;
         this.birthday = birthday;
     }
 
@@ -44,12 +55,12 @@ public class User {
         this.ago = ago;
     }
 
-    public String getAdd() {
-        return add;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdd(String add) {
-        this.add = add;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getBirthday() {
@@ -66,7 +77,7 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", ago='" + ago + '\'' +
-                ", add='" + add + '\'' +
+                ", address='" + address + '\'' +
                 ", birthday='" + birthday + '\'' +
                 '}';
     }
