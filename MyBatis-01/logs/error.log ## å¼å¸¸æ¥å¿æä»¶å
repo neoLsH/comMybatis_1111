@@ -1,0 +1,44 @@
+2019-11-22 08:22:35  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-22 08:22:35  [ main:102 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:22:35  [ main:103 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:22:35  [ main:104 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:22:35  [ main:104 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:22:36  [ main:451 ] - [ DEBUG ]  Opening JDBC Connection
+2019-11-22 08:22:36  [ main:1025 ] - [ DEBUG ]  Created connection 1840976765.
+2019-11-22 08:22:36  [ main:1026 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6dbb137d]
+2019-11-22 08:22:36  [ main:1056 ] - [ DEBUG ]  ==>  Preparing: select * from name.info 
+2019-11-22 08:22:37  [ main:1183 ] - [ DEBUG ]  ==> Parameters: 
+2019-11-22 08:22:37  [ main:1253 ] - [ DEBUG ]  <==      Total: 3
+2019-11-22 08:24:03  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-22 08:24:03  [ main:58 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:24:03  [ main:58 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:24:03  [ main:59 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:24:03  [ main:59 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:24:03  [ main:214 ] - [ DEBUG ]  Opening JDBC Connection
+2019-11-22 08:24:04  [ main:695 ] - [ DEBUG ]  Created connection 1840976765.
+2019-11-22 08:24:04  [ main:696 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6dbb137d]
+2019-11-22 08:24:04  [ main:707 ] - [ DEBUG ]  ==>  Preparing: select * from name.info 
+2019-11-22 08:24:04  [ main:774 ] - [ DEBUG ]  ==> Parameters: 
+2019-11-22 08:24:04  [ main:846 ] - [ DEBUG ]  <==      Total: 3
+2019-11-22 08:25:27  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-22 08:25:28  [ main:42 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:25:28  [ main:43 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:25:28  [ main:44 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:25:28  [ main:44 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:25:28  [ main:173 ] - [ DEBUG ]  Opening JDBC Connection
+2019-11-22 08:25:28  [ main:409 ] - [ DEBUG ]  Created connection 831236296.
+2019-11-22 08:25:28  [ main:410 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@318ba8c8]
+2019-11-22 08:25:28  [ main:417 ] - [ DEBUG ]  ==>  Preparing: select * from name.info 
+2019-11-22 08:25:28  [ main:474 ] - [ DEBUG ]  ==> Parameters: 
+2019-11-22 08:25:28  [ main:530 ] - [ DEBUG ]  <==      Total: 3
+2019-11-22 08:26:02  [main:1]-[DEBUG]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-22 08:26:02  [main:43]-[DEBUG]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:26:02  [main:44]-[DEBUG]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:26:02  [main:44]-[DEBUG]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:26:02  [main:45]-[DEBUG]  PooledDataSource forcefully closed/removed all connections.
+2019-11-22 08:26:02  [main:161]-[DEBUG]  Opening JDBC Connection
+2019-11-22 08:26:02  [main:446]-[DEBUG]  Created connection 831236296.
+2019-11-22 08:26:02  [main:447]-[DEBUG]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@318ba8c8]
+2019-11-22 08:26:02  [main:454]-[DEBUG]  ==>  Preparing: select * from name.info 
+2019-11-22 08:26:02  [main:506]-[DEBUG]  ==> Parameters: 
+2019-11-22 08:26:02  [main:551]-[DEBUG]  <==      Total: 3
