@@ -792,4 +792,238 @@ Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImp
 Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
  [DEBUG][2019/11/25 17:36:47188][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
 Returned connection 222511810 to pool.
+ [DEBUG][2019/11/27 21:42:49372][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:42:49423][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:42:49424][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:42:49425][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:42:49425][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:42:49624][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:42:49998][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 222511810.
+ [DEBUG][2019/11/27 21:42:49999][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/27 21:42:506  ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select *from name.info where id =? and name = ? 
+ [DEBUG][2019/11/27 21:42:5051 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 1(Integer), 黄乐枢(String)
+ [DEBUG][2019/11/27 21:42:5095 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 1
+ [DEBUG][2019/11/27 21:42:5097 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/27 21:42:5098 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/27 21:42:5098 ][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 222511810 to pool.
+ [DEBUG][2019/11/27 21:43:1377 ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:43:13115][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:43:13115][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:43:13116][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:43:13116][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:43:13247][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:43:13507][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1671846437.
+ [DEBUG][2019/11/27 21:43:13507][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:43:13514][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/27 21:43:13627][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 13(String), Wed Nov 27 21:43:13 CST 2019(String)
+ [DEBUG][2019/11/27 21:43:13638][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/27 21:43:13639][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:43:13643][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:43:13645][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:43:13645][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 1671846437 to pool.
+ [DEBUG][2019/11/27 21:44:17252][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:44:17294][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:44:17295][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:44:17296][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:44:17297][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:44:17435][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:44:17653][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1671846437.
+ [DEBUG][2019/11/27 21:44:17654][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:44:17665][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/27 21:44:17723][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 13(String), Wed Nov 27 21:44:17 CST 2019(String)
+ [DEBUG][2019/11/27 21:44:17729][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/27 21:44:17731][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:44:17739][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:44:17742][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:44:17743][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 1671846437 to pool.
+ [DEBUG][2019/11/27 21:49:13739][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:49:13784][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:13784][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:13785][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:13785][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:45552][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:49:45584][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:45584][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:45585][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:49:45585][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:50:23996][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:50:2431 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:50:2432 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:50:2432 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:50:2433 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:50:24139][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:50:24367][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1671846437.
+ [DEBUG][2019/11/27 21:50:24367][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:50:24375][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/27 21:50:24429][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 123(String), Wed Nov 27 21:50:24 CST 2019(String)
+ [DEBUG][2019/11/27 21:50:24435][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/27 21:50:24436][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:50:24439][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:50:24441][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63a65a25]
+ [DEBUG][2019/11/27 21:50:24443][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 1671846437 to pool.
+ [DEBUG][2019/11/27 21:51:20743][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:51:20774][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:20775][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:20776][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:20776][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:20878][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:51:2172 ][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 436532993.
+ [DEBUG][2019/11/27 21:51:2173 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a04f701]
+ [DEBUG][2019/11/27 21:51:2180 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info where id = ?; 
+ [DEBUG][2019/11/27 21:51:21130][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 1(Integer)
+ [DEBUG][2019/11/27 21:51:21163][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 1
+ [DEBUG][2019/11/27 21:51:21166][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a04f701]
+ [DEBUG][2019/11/27 21:51:21167][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a04f701]
+ [DEBUG][2019/11/27 21:51:21168][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 436532993 to pool.
+ [DEBUG][2019/11/27 21:51:50122][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:51:50154][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:50155][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:50155][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:50156][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:51:50272][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:51:50478][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 436532993.
+ [DEBUG][2019/11/27 21:51:50479][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a04f701]
+ [DEBUG][2019/11/27 21:51:50487][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info where id = ?; 
+ [DEBUG][2019/11/27 21:51:50545][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 1(Integer)
+ [DEBUG][2019/11/27 21:51:50584][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 1
+ [DEBUG][2019/11/27 21:51:50586][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a04f701]
+ [DEBUG][2019/11/27 21:51:50588][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a04f701]
+ [DEBUG][2019/11/27 21:51:50589][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 436532993 to pool.
+ [DEBUG][2019/11/27 21:54:2030 ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:54:2072 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:54:2072 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:54:2073 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:54:2073 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:56:47513][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/27 21:56:47552][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:56:47554][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:56:47555][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:56:47556][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/27 21:56:47685][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/27 21:56:47957][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1422222071.
+ [DEBUG][2019/11/27 21:56:47958][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54c562f7]
+ [DEBUG][2019/11/27 21:56:47967][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/27 21:56:4836 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), java.util.Random@6b57696f(String), Wed Nov 27 21:56:47 CST 2019(String)
+ [DEBUG][2019/11/27 21:56:4838 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/27 21:56:4839 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54c562f7]
+ [DEBUG][2019/11/27 21:56:4843 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54c562f7]
+ [DEBUG][2019/11/27 21:56:4844 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54c562f7]
+ [DEBUG][2019/11/27 21:56:4844 ][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 1422222071 to pool.
  

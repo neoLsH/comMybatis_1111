@@ -6,12 +6,10 @@ import com.hls.util.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class UserTest {
-
+    Scanner input = new Scanner(System.in);
     @Test
     public void test(){
         //第一步，获得SqlSession对象
@@ -34,7 +32,8 @@ public class UserTest {
     @Test
     public void test1(){
         SqlSession sqlSession = MybatisUtil.getSqlSession();
-
+//        int i = input.nextInt();
+//        System.out.println(i);
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
 
         List<User> userById = mapper.getUserById(1);
@@ -46,10 +45,16 @@ public class UserTest {
 
     @Test
     public void AddUser(){
+//        System.out.println("请输入年龄：");
+//        String ago = input.next();
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         Date date = new Date();
-        User user = new User("黄乐枢123","13","广东省",date.toString());
+//        String ago1 = "123";
+        Double d = Math.random();
+        Double aDouble = ((d + 1) * 1000);
+        aDouble = Double.valueOf(aDouble.hashCode());
+        User user = new User("黄乐枢123","123","广东省",date.toString());
         mapper.addUser(user);
         //提交事物
         sqlSession.commit();
