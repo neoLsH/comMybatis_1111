@@ -3,11 +3,11 @@ package com.hls.test;
 import com.hls.dao.UserMapper;
 import com.hls.pojo.User;
 import com.hls.util.MybatisUtil;
-import com.mysql.cj.protocol.a.MysqlBinaryValueDecoder;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 public class UserTest {
@@ -68,4 +68,28 @@ public class UserTest {
         sqlSession.close();
     }
 
+    @Test
+    public void delete(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        mapper.delete(2);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
+    @Test
+    public void selectMember(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        HashMap<String, Object> objectObjectHashMap = new HashMap<>();
+        //通过mapper找到map的key然后匹配value
+        objectObjectHashMap.put("id",1);
+        objectObjectHashMap.put("name","黄乐枢");
+        User userByIdAndname = mapper.getUserByIdAndname(objectObjectHashMap);
+        System.out.println(userByIdAndname);
+        sqlSession.close();
+    }
+
+
 }
+

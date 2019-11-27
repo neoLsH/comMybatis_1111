@@ -12,11 +12,23 @@
     <select id="getUserById" parameterType="int" resultType="com.hls.pojo.User">
         select * from name.info where id = #{id};
     </select>
+
+    <select id="getUserByIdAndname" resultType="com.hls.pojo.User">
+        select *from name.info where id =#{id} and name = #{name}
+    </select>
+
+
     <insert id="addUser" parameterType="com.hls.pojo.User">
         insert into name.info (name,address,ago,birthday) values(#{name},#{address},#{ago},#{birthday});
     </insert>
+    
+
+    
     <update id="Update" parameterType="com.hls.pojo.User">
         update name.info set birthday = #{birthday} where id = #{id};
     </update>
+    <delete id="delete" parameterType="int">
+        delete from name.info where id = #{id};
+    </delete>
 
 </mapper>
