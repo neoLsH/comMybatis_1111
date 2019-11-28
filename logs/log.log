@@ -1026,4 +1026,188 @@ Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImp
 Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54c562f7]
  [DEBUG][2019/11/27 21:56:4844 ][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
 Returned connection 1422222071 to pool.
+ [DEBUG][2019/11/28 09:06:18299][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 09:06:18347][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:18348][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:18348][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:18349][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:18492][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 09:06:18871][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 222511810.
+ [DEBUG][2019/11/28 09:06:18872][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/28 09:06:18878][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info where id = ?; 
+ [DEBUG][2019/11/28 09:06:18927][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 2(String)
+ [DEBUG][2019/11/28 09:06:18965][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 0
+ [DEBUG][2019/11/28 09:06:18966][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/28 09:06:18967][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/28 09:06:18968][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 222511810 to pool.
+ [DEBUG][2019/11/28 09:06:593  ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 09:06:5939 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:5939 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:5940 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:5940 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:06:59144][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 09:06:59342][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 222511810.
+ [DEBUG][2019/11/28 09:06:59343][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/28 09:06:59349][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info where id = ?; 
+ [DEBUG][2019/11/28 09:06:59385][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 6(String)
+ [DEBUG][2019/11/28 09:06:59423][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 1
+ [DEBUG][2019/11/28 09:06:59425][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/28 09:06:59426][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@d4342c2]
+ [DEBUG][2019/11/28 09:06:59427][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 222511810 to pool.
+ [DEBUG][2019/11/28 09:51:54646][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 09:51:54655][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 09:51:54657][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 09:51:54658][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 09:51:54659][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 09:51:54660][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 09:51:54661][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 09:51:54661][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 09:51:54722][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 09:51:54723][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 09:51:54724][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 09:51:54724][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 09:51:54725][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 K
+ [DEBUG][2019/11/28 09:51:54726][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 09:51:54786][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:51:54786][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:51:54788][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:51:54789][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:51:54925][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 09:51:55149][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 521081105.
+ [DEBUG][2019/11/28 09:51:55150][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1f0f1111]
+ [DEBUG][2019/11/28 09:51:55156][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info; 
+ [DEBUG][2019/11/28 09:51:55197][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 
+ [DEBUG][2019/11/28 09:51:55229][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 8
+ [DEBUG][2019/11/28 09:51:55230][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1f0f1111]
+ [DEBUG][2019/11/28 09:51:55231][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1f0f1111]
+ [DEBUG][2019/11/28 09:51:55232][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 521081105 to pool.
+ [DEBUG][2019/11/28 09:53:24887][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 09:53:24924][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:24925][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:24925][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:24926][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:49649][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 09:53:49685][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:49686][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:49687][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:49687][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:53:49805][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 09:53:5030 ][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1100767002.
+ [DEBUG][2019/11/28 09:53:5031 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@419c5f1a]
+ [DEBUG][2019/11/28 09:53:5038 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info; 
+ [DEBUG][2019/11/28 09:53:50110][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 
+ [DEBUG][2019/11/28 09:53:50146][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 8
+ [DEBUG][2019/11/28 09:53:50148][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@419c5f1a]
+ [DEBUG][2019/11/28 09:53:50149][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@419c5f1a]
+ [DEBUG][2019/11/28 09:53:50150][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 1100767002 to pool.
+ [DEBUG][2019/11/28 09:56:51224][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 09:56:51235][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 09:56:51235][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 09:56:51236][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 09:56:51238][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 09:56:51240][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 09:56:51240][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 09:56:51242][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 09:56:51311][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 09:56:51312][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 09:56:51313][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 09:56:51313][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 09:56:51315][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 K
+ [DEBUG][2019/11/28 09:56:51316][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 09:56:51376][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:56:51376][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:56:51379][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 09:56:51380][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
  

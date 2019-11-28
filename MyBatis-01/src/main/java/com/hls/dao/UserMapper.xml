@@ -6,23 +6,50 @@
 <!--namespace 命名空间 绑定一个mapper接口-->
 <mapper namespace="com.hls.dao.UserMapper">
 
+    <!--
+        resultMap 结果集
+            左边是实体类的属性名称
+            右边是表里面的列名称
+    -->
+
+    <resultMap id="huang" type="com.hls.pojo.User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="ago" column="ago"/>
+        <result property="address" column="address"/>
+        <result property="birthday" column="birthday"/>
+    </resultMap>
+
+    <!--可重用片段 sql包装-->
     <sql id="test" databaseId="name">
         select * from name.info where id=#{id};
     </sql>
 
-    <select id="getUserList" resultType="com.hls.pojo.User">
+<!--    不使用resultMap
+        <select id="getUserList" resultType="com.hls.pojo.User">-->
+<!--        select * from name.info;-->
+<!--    </select>-->
+
+    <select id="getUserList" resultMap="huang">
         select * from name.info;
     </select>
+
+
 
     <select id="getUserById" parameterType="int" resultType="com.hls.pojo.User">
         select * from name.info where id = #{id};
     </select>
 
+
     <select id="getUserByIdAndname" resultType="com.hls.pojo.User">
         select *from name.info where id =#{id} and name = #{name}
     </select>
-
-    <insert id="addUser" parameterType="com.hls.pojo.User">
+    <!--通过Map锁定获取对象Id-->
+    <select id="getUserByIdMap" resultType="com.hls.pojo.User">
+        select * from name.info where id = #{UserId};
+    </select>
+    <!--设置主键生成，虽然不设置的时候好像可以自动生成-->
+    <insert id="addUser" parameterType="com.hls.pojo.User" useGeneratedKeys="true" keyProperty="id">
         insert into name.info (name,address,ago,birthday) values(#{name},#{address},#{ago},#{birthday});
     </insert>
 

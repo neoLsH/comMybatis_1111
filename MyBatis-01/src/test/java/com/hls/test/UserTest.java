@@ -6,6 +6,7 @@ import com.hls.util.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
+import javax.swing.plaf.basic.BasicScrollPaneUI;
 import java.util.*;
 
 public class UserTest {
@@ -95,6 +96,15 @@ public class UserTest {
         sqlSession.close();
     }
 
+    @Test
+    public void GetUserByMapId(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("UserId","6");
+        System.out.println(mapper.getUserByIdMap(hashMap));
+        sqlSession.close();
+    }
 
 }
 
