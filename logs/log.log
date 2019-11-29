@@ -1210,4 +1210,888 @@ PooledDataSource forcefully closed/removed all connections.
 PooledDataSource forcefully closed/removed all connections.
  [DEBUG][2019/11/28 09:56:51380][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
 PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:42:52188][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 10:42:52199][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 10:42:52199][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 10:42:52200][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 10:42:52201][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 10:42:52202][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 10:42:52203][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:42:52204][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:42:52286][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 10:42:52287][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:42:52287][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:42:52288][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:42:52289][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/28 10:42:52290][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 10:42:52361][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:42:52362][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:42:52366][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:42:52367][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:42:52557][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 10:42:52809][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1448247698.
+ [DEBUG][2019/11/28 10:42:52810][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@56528192]
+ [DEBUG][2019/11/28 10:42:52817][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info; 
+ [DEBUG][2019/11/28 10:42:52868][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 
+ [DEBUG][2019/11/28 10:42:52908][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 8
+ [DEBUG][2019/11/28 10:42:52912][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@56528192]
+ [DEBUG][2019/11/28 10:42:52913][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@56528192]
+ [DEBUG][2019/11/28 10:42:52914][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 1448247698 to pool.
+ [DEBUG][2019/11/28 10:43:13973][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 10:43:13981][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 10:43:13982][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 10:43:13982][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 10:43:13983][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 10:43:13984][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 10:43:13985][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:13985][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:1442 ][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 10:43:1443 ][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:1443 ][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:1444 ][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:1445 ][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/28 10:43:1446 ][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 10:43:1495 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:1495 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:1498 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:1498 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:14260][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 10:43:14556][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 6750210.
+ [DEBUG][2019/11/28 10:43:14558][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:14569][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/28 10:43:14643][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 123(String), Thu Nov 28 10:43:14 CST 2019(String)
+ [DEBUG][2019/11/28 10:43:14650][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/28 10:43:14674][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:14686][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:14692][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:14693][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 6750210 to pool.
+ [DEBUG][2019/11/28 10:43:18607][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 10:43:18615][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 10:43:18616][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 10:43:18616][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 10:43:18617][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 10:43:18619][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 10:43:18620][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:18620][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:18660][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 10:43:18661][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:18661][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:18662][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:18663][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/28 10:43:18663][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 10:43:18709][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:18710][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:18712][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:18713][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:18848][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 10:43:1947 ][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 6750210.
+ [DEBUG][2019/11/28 10:43:1948 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:1955 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/28 10:43:19113][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 123(String), Thu Nov 28 10:43:18 CST 2019(String)
+ [DEBUG][2019/11/28 10:43:19116][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/28 10:43:19129][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:19137][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:19138][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:19139][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 6750210 to pool.
+ [DEBUG][2019/11/28 10:43:22361][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 10:43:22369][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 10:43:22370][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 10:43:22371][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 10:43:22372][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 10:43:22373][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 10:43:22374][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:22374][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:22422][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 10:43:22423][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:22424][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:22425][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:22426][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/28 10:43:22427][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 10:43:22480][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:22481][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:22483][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:22483][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:22621][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 10:43:22821][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 6750210.
+ [DEBUG][2019/11/28 10:43:22821][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:22829][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/28 10:43:22893][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 123(String), Thu Nov 28 10:43:22 CST 2019(String)
+ [DEBUG][2019/11/28 10:43:22897][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/28 10:43:22915][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:22918][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:22918][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:22919][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 6750210 to pool.
+ [DEBUG][2019/11/28 10:43:38112][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/28 10:43:38121][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/28 10:43:38121][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/28 10:43:38122][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/28 10:43:38124][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/28 10:43:38125][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/28 10:43:38126][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:38126][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:38171][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/28 10:43:38172][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/28 10:43:38173][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:38173][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/28 10:43:38176][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/28 10:43:38177][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/28 10:43:38229][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:38230][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:38232][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:38232][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/28 10:43:38373][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/28 10:43:38689][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 6750210.
+ [DEBUG][2019/11/28 10:43:38689][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:38696][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: insert into name.info (name,address,ago,birthday) values(?,?,?,?); 
+ [DEBUG][2019/11/28 10:43:38760][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄乐枢123(String), 广东省(String), 123(String), Thu Nov 28 10:43:38 CST 2019(String)
+ [DEBUG][2019/11/28 10:43:38762][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==    Updates: 1
+ [DEBUG][2019/11/28 10:43:38785][org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)]
+Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:38795][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:38795][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@670002]
+ [DEBUG][2019/11/28 10:43:38796][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 6750210 to pool.
+ [DEBUG][2019/11/29 15:48:35584][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 15:48:35593][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 15:48:35593][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 15:48:35594][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 15:48:35596][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 15:48:35597][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 15:48:35598][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:48:35598][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:48:35651][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 15:48:35652][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:48:35653][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 15:48:35653][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 15:48:35654][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 15:48:35655][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 15:48:35721][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:48:35722][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:48:35724][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:48:35725][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:55:40520][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 15:55:40529][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 15:55:40530][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 15:55:40531][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 15:55:40532][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 15:55:40535][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 15:55:40536][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:55:40538][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:55:40603][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 15:55:40605][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:55:40605][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 15:55:40606][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 15:55:40607][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 15:55:40608][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 15:55:40679][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:55:40680][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:55:40682][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:55:40684][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:57:46735][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 15:57:46789][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 15:57:46791][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 15:57:46794][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 15:57:46796][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 15:57:46799][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 15:57:46801][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:57:46802][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:57:46921][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 15:57:46923][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 15:57:46924][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 15:57:46925][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 15:57:46930][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 15:57:46931][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 15:57:47161][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:57:47163][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:57:47178][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 15:57:47179][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 16:06:37573][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 16:06:37582][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 16:06:37583][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 16:06:37584][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 16:06:37585][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 16:06:37586][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 16:06:37587][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 16:06:37588][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 16:06:37646][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 16:06:37647][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 16:06:37648][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 16:06:37648][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 16:06:37650][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 16:06:37651][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 16:06:37703][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 16:06:37705][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 16:06:37708][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 16:06:37709][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 16:06:42399][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 16:06:42608][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1559122513.
+ [DEBUG][2019/11/29 16:06:42608][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5cee5251]
+ [DEBUG][2019/11/29 16:06:42613][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info WHERE id = ? 
+ [DEBUG][2019/11/29 16:06:42651][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 3(Integer)
+ [DEBUG][2019/11/29 16:06:42692][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 1
+ [DEBUG][2019/11/29 19:34:57831][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 19:34:57849][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 19:34:57849][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 19:34:57851][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 19:34:57852][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 19:34:57853][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 19:34:57857][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:34:57859][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:34:57955][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 19:34:57958][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:34:57959][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 19:34:57959][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 19:34:57961][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 19:34:57962][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 19:34:5838 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:34:5839 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:34:5842 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:34:5842 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:34:58332][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 19:34:58747][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1624820151.
+ [DEBUG][2019/11/29 19:34:58748][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@60d8c9b7]
+ [DEBUG][2019/11/29 19:34:58753][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from info where name like ?; 
+ [DEBUG][2019/11/29 19:34:58842][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄(String)
+ [DEBUG][2019/11/29 19:34:58933][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 0
+ [DEBUG][2019/11/29 19:35:31793][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 19:35:31814][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 19:35:31814][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 19:35:31816][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 19:35:31817][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 19:35:31818][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 19:35:31819][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:35:31820][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:35:31893][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 19:35:31893][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:35:31894][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 19:35:31895][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 19:35:31896][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 19:35:31899][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 19:35:31992][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:31993][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:31995][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:31996][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:32252][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 19:35:32611][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1624820151.
+ [DEBUG][2019/11/29 19:35:32612][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@60d8c9b7]
+ [DEBUG][2019/11/29 19:35:32620][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from info where name like %?%; 
+ [DEBUG][2019/11/29 19:35:32733][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄(String)
+ [DEBUG][2019/11/29 19:35:55662][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 19:35:55677][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 19:35:55677][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 19:35:55680][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 19:35:55683][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 19:35:55688][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 19:35:55689][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:35:55690][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:35:55768][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 19:35:55773][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 19:35:55773][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 19:35:55774][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 19:35:55778][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 19:35:55780][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 19:35:55953][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:55954][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:55957][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:55958][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 19:35:56309][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 19:35:56817][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 1624820151.
+ [DEBUG][2019/11/29 19:35:56818][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@60d8c9b7]
+ [DEBUG][2019/11/29 19:35:56830][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from info where name like "%"?"%"; 
+ [DEBUG][2019/11/29 19:35:56950][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 黄(String)
+ [DEBUG][2019/11/29 19:35:5731 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 12
+ [DEBUG][2019/11/29 20:20:57750][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:20:57766][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:20:57767][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:20:57768][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:20:57769][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:20:57771][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:20:57771][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:20:57772][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:20:57819][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:20:57820][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:20:57820][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:20:57820][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:20:57821][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:20:57822][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:20:57873][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:20:57874][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:20:57876][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:20:57876][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:20:5817 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 20:21:28962][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:21:28969][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:21:28970][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:21:28971][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:21:28971][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:21:28972][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:21:28973][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:21:28973][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:21:2917 ][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:21:2918 ][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:21:2919 ][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:21:2919 ][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:21:2920 ][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:21:2921 ][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:21:2971 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:21:2971 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:21:2973 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:21:2973 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:21:29246][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 20:25:42314][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:25:42334][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:25:42336][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:25:42340][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:25:42342][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:25:42345][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:25:42346][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:25:42347][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:25:42466][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:25:42467][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:25:42468][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:25:42469][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:25:42471][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:25:42473][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:25:42668][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:25:42671][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:25:42681][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:25:42682][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:25:43109][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 20:27:28161][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:27:28169][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:27:28170][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:27:28170][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:27:28171][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:27:28172][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:27:28173][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:27:28173][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:27:28218][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:27:28219][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:27:28221][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:27:28221][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:27:28222][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:27:28223][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:27:28271][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:27:28272][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:27:28274][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:27:28275][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:27:28421][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 20:27:28788][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424)]
+Created connection 2061347276.
+ [DEBUG][2019/11/29 20:27:28789][org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100)]
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7adda9cc]
+ [DEBUG][2019/11/29 20:27:28796][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==>  Preparing: select * from name.info where id = ?; 
+ [DEBUG][2019/11/29 20:27:28876][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+==> Parameters: 6(String)
+ [DEBUG][2019/11/29 20:27:28918][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)]
+<==      Total: 1
+ [DEBUG][2019/11/29 20:27:28920][org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122)]
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7adda9cc]
+ [DEBUG][2019/11/29 20:27:28921][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7adda9cc]
+ [DEBUG][2019/11/29 20:27:28922][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381)]
+Returned connection 2061347276 to pool.
+ [DEBUG][2019/11/29 20:28:23272][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:28:23283][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:28:23284][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:28:23285][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:28:23286][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:28:23287][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:28:23288][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:28:23289][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:28:23346][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:28:23347][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:28:23348][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:28:23348][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:28:23350][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:28:23351][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:28:23408][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:28:23409][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:28:23412][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:28:23412][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:28:23610][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 20:32:39550][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:32:39558][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:32:39558][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:32:39559][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:32:39560][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:32:39561][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:32:39561][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:32:39562][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:32:39612][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:32:39613][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:32:39613][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:32:39614][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:32:39616][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:32:39617][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:32:39885][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2019/11/29 20:38:47435][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:38:47465][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:38:47467][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:38:47469][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:38:47472][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:38:47476][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:38:47478][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:38:47480][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:38:47655][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:38:47656][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:38:47657][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:38:47658][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:38:47661][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:38:47663][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:38:47834][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:38:47835][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:38:47881][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:39:32418][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)]
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ [DEBUG][2019/11/29 20:39:32441][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VFS
+ [DEBUG][2019/11/29 20:39:32442][org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142)]
+JBoss 6 VFS API is not available in this environment.
+ [DEBUG][2019/11/29 20:39:32443][org.apache.ibatis.io.VFS.getClass(VFS.java:108)]
+Class not found: org.jboss.vfs.VirtualFile
+ [DEBUG][2019/11/29 20:39:32448][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63)]
+VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ [DEBUG][2019/11/29 20:39:32451][org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74)]
+Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ [DEBUG][2019/11/29 20:39:32452][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:39:32453][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:39:32579][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: User.class
+ [DEBUG][2019/11/29 20:39:32581][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113)]
+Listing file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo
+ [DEBUG][2019/11/29 20:39:32583][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222)]
+Find JAR URL: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:39:32584][org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248)]
+Not a JAR: file:/home/leshu/kotlin_project/comMybatis/MyBatis-01/target/classes/com/hls/pojo/User.class
+ [DEBUG][2019/11/29 20:39:32588][org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102)]
+Reader entry: ����   3 O
+ [DEBUG][2019/11/29 20:39:32590][org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256)]
+Checking to see if class com.hls.pojo.User matches criteria [is assignable to Object]
+ [DEBUG][2019/11/29 20:39:32757][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:39:32758][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:39:32771][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:39:32773][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2019/11/29 20:39:3349 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
  

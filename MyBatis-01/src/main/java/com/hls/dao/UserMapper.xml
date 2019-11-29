@@ -36,8 +36,12 @@
 
 
 
+
     <select id="getUserById" parameterType="int" resultType="com.hls.pojo.User">
-        select * from name.info where id = #{id};
+        select * from name.info
+        <where>
+            id = #{id}
+        </where>
     </select>
 
 
@@ -48,6 +52,12 @@
     <select id="getUserByIdMap" resultType="com.hls.pojo.User">
         select * from name.info where id = #{UserId};
     </select>
+
+    <select id="getUserLike" resultType="com.hls.pojo.User">
+        select * from info where name like "%"#{value}"%";
+    </select>
+
+
     <!--设置主键生成，虽然不设置的时候好像可以自动生成-->
     <insert id="addUser" parameterType="com.hls.pojo.User" useGeneratedKeys="true" keyProperty="id">
         insert into name.info (name,address,ago,birthday) values(#{name},#{address},#{ago},#{birthday});

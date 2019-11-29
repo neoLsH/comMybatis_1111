@@ -3,14 +3,12 @@ package com.hls.test;
 import com.hls.dao.UserMapper;
 import com.hls.pojo.User;
 import com.hls.util.MybatisUtil;
+import com.mysql.cj.protocol.a.MysqlBinaryValueDecoder;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
-
-import javax.swing.plaf.basic.BasicScrollPaneUI;
 import java.util.*;
 
 public class UserTest {
-    Scanner input = new Scanner(System.in);
     @Test
     public void test(){
         //第一步，获得SqlSession对象
@@ -105,6 +103,24 @@ public class UserTest {
         System.out.println(mapper.getUserByIdMap(hashMap));
         sqlSession.close();
     }
+    @Test
+    public void testWhere(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        System.out.println("请输入编号：");
+        Scanner input = new Scanner(System.in);
+        int Scan = input.nextInt();
+        List<User> userById = mapper.getUserById(Scan);
+        System.out.println(Scan);
+        for (User temp:
+             userById) {
+            System.out.println(temp.toString());
+        }
+
+    }
+
+
+
 
 }
 

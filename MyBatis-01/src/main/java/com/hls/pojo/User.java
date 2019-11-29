@@ -1,5 +1,8 @@
 package com.hls.pojo;
 
+import org.apache.ibatis.type.Alias;
+
+@Alias("user")
 public class User {
 
     //实体类

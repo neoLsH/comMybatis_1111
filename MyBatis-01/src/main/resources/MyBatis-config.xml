@@ -4,14 +4,24 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!--核心配置-->
 <configuration>
+    <!--引入外部配置文件-->
+    <properties resource="db.properties"></properties>
+
+    <!--别名-->
+    <typeAliases >
+<!--        <typeAlias type="com.hls.pojo.User" alias="User"/>-->
+        <package name="com.hls.pojo"/>
+    </typeAliases>
+
+
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"></transactionManager>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/name?useSSL=false&amp;serverTimezone=UTC&amp;characterEncoding=UTF-8&amp;useUnicode=true"/>
-                <property name="username" value="root"/>
-                <property name="password" value="123456"/>
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
             </dataSource>
         </environment>
     </environments>
