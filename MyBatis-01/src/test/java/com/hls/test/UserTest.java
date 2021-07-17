@@ -53,7 +53,7 @@ public class UserTest {
         Double d = Math.random();
         Double aDouble = ((d + 1) * 1000);
         aDouble = Double.valueOf(aDouble.hashCode());
-        User user = new User("黄乐枢123","123","广东省",date.toString());
+        User user = new User("123","123","广东省",date.toString());
         mapper.addUser(user);
         //提交事物
         sqlSession.commit();
@@ -88,7 +88,7 @@ public class UserTest {
         HashMap<String, Object> objectObjectHashMap = new HashMap<>();
         //通过mapper找到map的key然后匹配value
         objectObjectHashMap.put("id",1);
-        objectObjectHashMap.put("name","黄乐枢");
+        objectObjectHashMap.put("name","");
         User userByIdAndname = mapper.getUserByIdAndname(objectObjectHashMap);
         System.out.println(userByIdAndname);
         sqlSession.close();
